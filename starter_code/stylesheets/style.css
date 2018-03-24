@@ -67,6 +67,8 @@ main img {
 
 .companies .flex {
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 main .signin {
@@ -100,13 +102,13 @@ footer {
   align-items: center;
 }
 
-@media (min-width: 767px) and (max-width: 961px) {
+@media (min-width: 767px) and (max-width: 960px) {
   input, button {
     width: 50%;
   }
 
   main img {
-    width: 50%;
+    width: 40%;
   }
 
   main .signin {
@@ -131,5 +133,25 @@ footer {
 
   .language img {
     width: 10px;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1024px) {
+  main img {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav .fa {
+    display: none;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  main img {
+    width: 30%;
   }
 }
