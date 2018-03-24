@@ -170,6 +170,10 @@ footer {
     flex-direction: row;
   }
 
+  .email {
+    flex-direction: row;
+  }
+
   .map {
     flex-wrap: nowrap;
   }
@@ -215,7 +219,17 @@ footer {
     margin: 0 10px;
   }
 
+  header {
+    flex-direction: row;
+  }
+
   header img {
     order: 0;
+  }
+
+  header div.flex {
+    flex-direction: column;
+    justify-content: stretch;
+    padding-top: 50px;
   }
 }
